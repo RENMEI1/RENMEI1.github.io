@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>我的网站</title>
-        <link rel="prefetch" href="./img/index_all.jpg" />
-        <link rel="prerender" href="./img/index_all.jpg" />
-        <link rel="stylesheet" media="screen and (min-width:769px)" href="./css/index.css">
-    </head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" media="screen and (min-width:769px)" href="./css/home_page.css">
+</head>
 <body>
-<div class="show_page">
-    <div class="btn_show">
-        <a href="./home_page.html">我的网站</a>
+<div class="allblock">
+    <div class="first_page">
+        <div class="top_title">
+            <div class="top_button"><a href="./home_page.html">HOME</a></div>
+            <div class="top_button"><a href="./results.html">RESULTS</a></div>
+            <div class="top_button"><a href="./resources.html">RESOURCES</a></div>
+            <div class="top_button"><a href="./about.html">ABOUT</a></div>
+            <div class="top_button"><a href="./more.html">MORE</a></div>
+        </div>
+    </div>
+    <div class="small_block">
+        <div><span>Welcome</span></div>
+        <div><span>to</span></div>
+        <div><span>here</span></div>
+    </div>
+    <div class="next_page">
+
+        <div class="bottom_title"></div>
     </div>
 </div>
-<script>
-    var show_page = document.getElementsByClassName('show_page')[0];
-    var num = window.innerHeight;
-    show_page.style.height = num + 'px';
-</script>
 </body>
-
 </html>
