@@ -64,12 +64,18 @@ body {
 }
 
 .next_page>p:hover {
-    transform: rotateX(-90deg);
+    transform: rotateX(-90deg)
 }
 
 .next_page>p {
     font-size: 22px;
     text-shadow: rgb(146, 143, 143) 1px 1px 2px;
+}
+.next_page a{
+    color: cadetblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px ;
 }
 .new_things {
     padding-left: 10px;
