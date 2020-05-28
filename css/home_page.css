@@ -50,7 +50,7 @@ body,html{
 }
 
 .home_page {
-    font-size: 10px;
+    font-size: 20px;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -70,7 +70,7 @@ body,html{
     display: block;
 
 }
-.introduction{
+.content p{
     font-family: 仿宋;
     text-align: left;
 
